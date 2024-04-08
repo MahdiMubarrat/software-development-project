@@ -1,0 +1,56 @@
+/* ProgressTracking.css */
+
+.progress-tracking-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .progress-tracking-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  .course-progress {
+    margin-bottom: 15px;
+  }
+  
+  .course-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar-background {
+    width: 100%;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-foreground {
+    height: 20px;
+    background-color: #5cb85c;
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: flex-end; /* Position the text at the end of the progress bar */
+    padding-right: 10px;
+    transition: width 1s ease;
+  }
+  
+  .progress-percentage {
+    color: white;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .progress-tracking-container {
+      padding: 10px;
+    }
+  }
+  
